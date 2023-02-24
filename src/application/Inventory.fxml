@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="inventorypane" prefHeight="450.0" prefWidth="700.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserController">
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="-1.0" prefHeight="486.0" prefWidth="703.0">
+         <children>
+            <TextField fx:id="text4" layoutX="31.0" layoutY="219.0" prefHeight="78.0" prefWidth="188.0" />
+            <TextField fx:id="text5" layoutX="528.0" layoutY="44.0" prefHeight="130.0" prefWidth="143.0" />
+            <Button fx:id="home2" layoutX="595.0" layoutY="369.0" mnemonicParsing="false" onAction="#handle5" prefHeight="67.0" prefWidth="70.0" stylesheets="@application.css" text="Home" textFill="WHITE">
+               <padding>
+                  <Insets bottom="-20.0" />
+               </padding>
+            </Button>
+            <Label fx:id="lookuplabel" layoutX="235.0" layoutY="22.0" prefHeight="409.0" prefWidth="282.0" />
+            <Button fx:id="lookup2" layoutX="266.0" layoutY="95.0" mnemonicParsing="false" onAction="#findItem" prefHeight="217.0" prefWidth="219.0" stylesheets="@application.css" text="Click here" textFill="#8b05e4">
+               <padding>
+                  <Insets bottom="190.0" left="-100.0" />
+               </padding>
+               <font>
+                  <Font name="System Font" size="13.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

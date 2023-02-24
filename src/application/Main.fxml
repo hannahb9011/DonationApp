@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPane" prefHeight="442.0" prefWidth="666.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <AnchorPane layoutX="11.0" layoutY="3.0" prefHeight="441.0" prefWidth="668.0" stylesheets="@application.css">
+         <children>
+            <Label graphicTextGap="5.0" layoutX="38.0" layoutY="37.0" text="A Thousand Hands" textFill="#f5a407">
+               <font>
+                  <Font name="Baskerville Italic" size="48.0" />
+               </font>
+               <padding>
+                  <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+               </padding>
+            </Label>
+            <Button fx:id="needbutton" layoutX="71.0" layoutY="224.0" mnemonicParsing="false" onAction="#toNeedGive" prefHeight="115.0" prefWidth="135.0" stylesheets="@application.css" text="Click here" textFill="WHITE">
+               <padding>
+                  <Insets top="80.0" />
+               </padding>
+            </Button>
+            <Button fx:id="givebutton" layoutX="265.0" layoutY="225.0" mnemonicParsing="false" onAction="#toNeedGive" prefHeight="115.0" prefWidth="141.0" stylesheets="@application.css" text="Click here" textFill="#3100f9">
+               <padding>
+                  <Insets top="80.0" />
+               </padding>
+            </Button>
+            <Button fx:id="lookupbutton" layoutX="470.0" layoutY="225.0" mnemonicParsing="false" onAction="#toInventory" prefHeight="115.0" prefWidth="140.0" stylesheets="@application.css" text="Click here" textFill="WHITE">
+               <padding>
+                  <Insets top="80.0" />
+               </padding>
+            </Button>
+            <Label fx:id="kindnesslabel" layoutX="438.0" layoutY="1.0" prefHeight="173.0" prefWidth="226.0" stylesheets="@application.css" />
+            <Label layoutX="113.0" layoutY="190.0" text="In need? " textFill="#f5a407">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="289.0" layoutY="190.0" text="Want to donate?" textFill="#f5a407">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="497.0" layoutY="187.0" prefHeight="17.0" prefWidth="154.0" text="Need to lookup" textFill="#f5a407">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="510.0" layoutY="199.0" text="something?" textFill="#f5a407">
+               <font>
+                  <Font name="Baskerville" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

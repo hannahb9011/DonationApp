@@ -1,0 +1,67 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#mainPane{
+	-fx-background-image:url("photos/bluefade.png");
+}
+#needbutton{
+	-fx-background-image:url("photos/need.jpg");
+	-fx-background-size: 100% 100%;
+}
+#givebutton{
+	-fx-background-image:url("photos/give.jpg");
+	-fx-background-size: 100% 100%;
+}
+#lookupbutton{
+	-fx-background-image:url("photos/lookup.jpg");
+	-fx-background-size: 100% 100%;
+}
+#kindnesslabel{
+	-fx-background-image:url("photos/kindness.jpg");
+	-fx-background-size: 100% 100%;
+}
+
+#needgivePane{
+	-fx-background-image:url("photos/tan.jpg");
+	-fx-background-size: 100% 100%;
+}
+#userid{
+	-fx-background-image:url("photos/user.jpg");
+	-fx-background-size: 100% 100%;
+}
+#item{
+	-fx-background-image:url("photos/grocery.png");
+	-fx-background-size: 100% 100%;
+}
+#quantity{
+	-fx-background-image:url("photos/number.png");
+	-fx-background-size: 100% 100%;
+}
+#needgivelabel{
+	-fx-background-image:url("photos/purplefade.png");
+	-fx-background-size: 100% 100%;
+}
+#button1{
+	-fx-background-image:url("photos/add-subtract.png");
+	-fx-background-size: 100% 100%;
+}
+#home1{
+	-fx-background-image:url("photos/home.png");
+	-fx-background-size: 100% 100%;
+}
+
+#inventorypane{
+	-fx-background-image:url("photos/tan.jpg");
+}
+#lookup2{
+	-fx-background-image:url("photos/lookup2.jpg");
+	-fx-background-size: 100% 100%;
+}
+#lookuplabel{
+		-fx-background-image:url("photos/purplefade.png");
+		-fx-background-size: 100% 100%;
+}
+#home2{
+	-fx-background-image:url("photos/home.png");
+	-fx-background-size: 100% 100%;
+}
+	
